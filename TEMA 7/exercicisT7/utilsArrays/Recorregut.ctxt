@@ -1,0 +1,42 @@
+#BlueJ class context
+comment0.target=Recorregut
+comment0.text=\r\n\ Classe\ Recorregut\:\ problemes\ de\ recorregut\ en\ arrays\r\n\ \r\n\ @author\ IIP\ \r\n\ @version\ Curs\ 2019-20\r\n
+comment1.params=
+comment1.target=Recorregut()
+comment10.params=v\ ini\ fi
+comment10.target=void\ invertir(double[],\ int,\ int)
+comment10.text=\ Donat\ un\ array\ de\ reals\ v,\ i\ dues\ posicions\ donades,\ ini\ i\ fi,\ \r\n\ \ de\ l'array,\ 0\ <\=\ ini\ <\=\ fi\ <\=\ v.length-1,\ inverteix\ tots\ els\ \r\n\ \ elements\ de\ l'array\ situats\ entre\ aquestes\ posicions.\r\n\ \ @param\ v\ double[]\ (v.length\ >\ 0).\r\n\ \ @param\ ini\ int.\ \r\n\ \ @param\ fi\ int.\r\n\ \ Estrat\u00E8gia\:\ Recorregut\ iteratiu.\r\n
+comment11.params=v\ esq\ dre
+comment11.target=void\ desplasarDreta(int[],\ int,\ int)
+comment11.text=\ Donat\ un\ array\ d'enters\ v\ i\ dues\ posicions\ donades,\ esq\ i\ dre,\ \r\n\ \ de\ l'array,\ 0\ <\=\ esq\ <\=\ dre\ <\ v.length-1,\ desplasa\ una\ posici\u00F3\ \r\n\ \ cap\ a\ la\ DRETA\ tots\ els\ elements\ de\ l'array\ situats\ entre\ les\ \r\n\ \ posicions\ esq\ i\ dre,\ ambdues\ inclusive.\r\n\ \ @param\ v\ int[]\ (v.length\ >\ 0).\r\n\ \ @param\ esq\ int.\ \r\n\ \ @param\ dre\ int.\r\n
+comment12.params=v\ esq\ dre
+comment12.target=void\ desplasarEsquerra(int[],\ int,\ int)
+comment12.text=\ Donat\ un\ array\ d'enters\ v\ i\ dues\ posicions\ donades,\ esq\ i\ dre,\ \r\n\ \ de\ l'array,\ 0\ <\ esq\ <\=\ dre\ <\=\ v.length-1,\ desplasa\ una\ posici\u00F3\ \r\n\ \ cap\ a\ l'ESQUERRA\ tots\ els\ elements\ de\ l'array\ situats\ entre\ les\ \r\n\ \ posicions\ esq\ i\ dre,\ ambdues\ inclusive.\r\n\ \ @param\ v\ int[]\ (v.length\ >\ 0).\r\n\ \ @param\ esq\ int.\ \r\n\ \ @param\ dre\ int.\r\n
+comment13.params=a\ n
+comment13.target=int\ modaDe0aN(int[],\ int)
+comment13.text=\ Calcula\ la\ moda\ d'un\ array\ que\ cont\u00E9\ elements\ enters\ \r\n\ \ en\ el\ rang\ [0,\ n].\r\n\ \ @param\ a\ int[]\ (a.length\ >\ 0).\r\n\ \ @param\ n\ int\ (n\ >\=\ 0)\r\n
+comment2.params=v
+comment2.target=int\ sumaIteAsc(int[])
+comment2.text=\ Suma\ dels\ elements\ d'un\ array\ de\ enters\ \r\n\ \ @param\ v\ int[]\ (v.length\ >\ 0).\r\n\ \ @return\ int,\ la\ suma.\r\n\ \ Estrat\u00E8gia\:\ Recorregut\ iteratiu\ ascendent.\r\n
+comment3.params=v
+comment3.target=double\ mitjanaIteAsc(int[])
+comment3.text=\ Mitjana\ dels\ elements\ d'un\ array\ de\ enters\ \r\n\ \ @param\ v\ int[]\ (v.length\ >\ 0).\r\n\ \ @return\ double,\ la\ mitjana.\r\n\ \ Estrat\u00E8gia\:\ Recorregut\ iteratiu\ ascendent.\r\n
+comment4.params=a\ esq\ dre
+comment4.target=double\ mitjana(int[],\ int,\ int)
+comment4.text=\ Mitjana\ dels\ elements\ d'un\ array\ de\ enters\ \r\n\ \ entre\ dues\ posicions\ donades\ (0\ <\=\ esq\ <\=\ dre\ <\ a.length).\r\n\ \ @param\ a\ int[]\ (a.length\ >\ 0).\r\n\ \ @param\ esq\ int.\ \r\n\ \ @param\ dre\ int.\r\n\ \ @return\ double,\ la\ mitjana.\r\n\ \ Estrat\u00E8gia\:\ Recorregut\ iteratiu\ ascendent.\r\n
+comment5.params=v
+comment5.target=int\ sumaIteDesc(int[])
+comment5.text=\ Suma\ dels\ elements\ d'un\ array\ de\ enters\ \r\n\ \ @param\ v\ int[]\ (v.length\ >\ 0).\r\n\ \ @return\ int,\ la\ suma.\r\n\ \ Estrat\u00E8gia\:\ Recorregut\ iteratiu\ descendent.\r\n
+comment6.params=a
+comment6.target=int\ maxim(java.lang.String[])
+comment6.text=\ Torna\ la\ posici\u00F3\ del\ m\u00E0xim\ d'un\ array\ de\ String.\ \r\n\ \ @param\ a\ String[]\ (a.length\ >\ 0).\r\n\ \ @return\ int,\ la\ posici\u00F3\ del\ m\u00E0xim.\r\n\ \ Estrat\u00E8gia\:\ Recorregut\ iteratiu\ ascendent.\r\n
+comment7.params=a
+comment7.target=int\ maxim(double[])
+comment7.text=\ Torna\ la\ posici\u00F3\ del\ m\u00E0xim\ d'un\ array\ de\ double.\ \r\n\ \ @param\ a\ double[]\ (a.length\ >\ 0).\r\n\ \ @return\ int,\ la\ posici\u00F3\ del\ m\u00E0xim.\r\n\ \ Estrat\u00E8gia\:\ Recorregut\ iteratiu\ descendent.\r\n
+comment8.params=plutja
+comment8.target=void\ minimPlutja(double[])
+comment8.text=\ A\ partir\ de\ les\ mesures\ diaries\ de\ pluviositat\ d'una\ setmana,\ \r\n\ \ indica\ quina\ \u00E9s\ la\ mesura\ m\u00EDnima\ i\ el\ dia\ de\ la\ setmana\ que\ \r\n\ \ es\ va\ produir.\ \r\n\ \ @param\ plutja\ double[]\ (plutja.length\ >\ 0)\r\n\ \ Estrat\u00E8gia\:\ Recorregut\ iteratiu\ ascendent.\r\n
+comment9.params=v\ esq\ dre
+comment9.target=void\ duplicar(int[],\ int,\ int)
+comment9.text=\ Donat\ un\ array\ d'enters\ v\ i\ dues\ posicions\ donades,\ esq\ i\ dre,\ \r\n\ \ de\ l'array,\ 0\ <\=\ esq\ <\=\ dre\ <\=\ v.length-1,\ duplica\ el\ valor\ \r\n\ \ dels\ elements\ de\ l'array\ situats\ entre\ aquestes\ posicions.\r\n\ \ @param\ v\ int[]\ (v.length\ >\ 0).\r\n\ \ @param\ esq\ int.\ \r\n\ \ @param\ dre\ int.\r\n\ \ Estrat\u00E8gia\:\ Recorregut\ iteratiu\ ascendent.\r\n
+numComments=14

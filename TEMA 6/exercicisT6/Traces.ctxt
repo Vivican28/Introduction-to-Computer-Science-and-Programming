@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=Traces
+comment0.text=\r\n\ Classe\ Traces\:\ m\u00E8todes\ amb\ bucles\ niuats\r\n\ \r\n\ @author\ IIP\ \r\n\ @version\ Curs\ 2019-20\r\n
+comment1.params=
+comment1.target=Traces()
+comment2.params=
+comment2.target=void\ traza1()
+comment2.text=Qu\u00E8\ mostra\ per\ pantalla?
+comment3.params=n
+comment3.target=void\ traza2(int)
+comment3.text=Qu\u00E8\ mostra\ per\ pantalla?
+numComments=4

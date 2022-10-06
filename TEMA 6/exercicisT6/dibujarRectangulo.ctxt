@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=dibujarRectangulo
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ dibujarRectangulo\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=base\ altura\ margen
+comment1.target=java.lang.String\ dibujarRectangulo(int,\ int,\ int)
+comment1.text=\ PRECONDICI\u00D3N\:\ base\ y\ altura\ MAYORES\ que\ 1;\ margen\ MAYOR\ o\ IGUAL\ que\ 0\r\n\ CAP\ CCDIJ4ai\r\n\ \ Dado\ un\ cierto\ margen\ (izquierdo),\ una\ base\ y\ una\ altura,\ \r\n\ \ devuelve\ el\ dibujo\ (String)\ del\ correspondiente\ rect\u00E1ngulo\ \r\n\ \ realizado\ con\ asteriscos\ (y\ espacios\ en\ blanco).\r\n\r\n\ \ En\ concreto,\ si\ margen\ \=\ 0,\ el\ lado\ izquierdo\ del\ rect\u00E1ngulo\ \ \r\n\ \ aparecer\u00E1\ "pegado"\ al\ borde\ izquierdo\ del\ \u00E1rea\ donde\ se\ dibuje;\ \ \r\n\ \ sino,\ aparecer\u00E1\ "separado"\ margen\ blancos\ de\ \u00E9l.\r\n
+comment2.params=base\ altura
+comment2.target=void\ rectangle(int,\ int)
+comment2.text=Lo\ mismo\ pero\ ejecutable\ mediante\ un\ void
+comment3.params=base
+comment3.target=java.lang.String\ dibujarTriangulo(int)
+comment3.text=\ PRECONDICI\u00D3N\:\ base\ IMPAR\ y\ MAYOR\ QUE\ 3\r\n\ \ CAP\ CCDIK4ai\r\n\ \ Dada\ una\ base,\ devuelve\ el\ dibujo\ (String)\ del\ \r\n\ \ correspondiente\ tri\u00E1ngulo\ is\u00F3sceles\ realizado\ \r\n\ \ con\ asteriscos\ (y\ espacios\ en\ blanco).\r\n
+comment4.params=base
+comment4.target=void\ triangleRect(int)
+comment5.params=baseArbol
+comment5.target=java.lang.String\ dibujarArbolNavidad(int)
+comment5.text=\ PRECONDICI\u00D3N\:\ baseArbol\ IMPAR\ MAYOR\ o\ IGUAL\ que\ 7\r\n\ CAP\ CCDIL4ai\r\n\ \ Devuelve\ el\ dibujo\ (String)\ de\ un\ \u00C1rbol\ de\ Navidad\ compuesto\ por\ ...\ \r\n\ \ (1)\ Un\ tri\u00E1ngulo\ (\u00E1rbol)\ de\ base\ baseArbol\ \r\n\ \ (2)\ Un\ rect\u00E1ngulo\ (maceta)\ de\ base\ 3,\ altura\ 2\ y\ CENTRADO\ en\ el\ \ \r\n\ \ \ \ \ \ MEDIO\ de\ la\ base\ del\ tri\u00E1ngulo\r\n
+numComments=6

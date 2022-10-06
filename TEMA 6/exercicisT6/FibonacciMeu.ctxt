@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=FibonacciMeu
+comment0.text=\r\n\ Classe\ FibonacciMeu\:\ classe\ programa\ que\ prova\ el\ m\u00E8tode\ fibonacci.\r\n\ \r\n\ @author\ IIP\r\n\ @version\ Curs\ 2019-20\r\n
+comment1.params=
+comment1.target=FibonacciMeu()
+comment2.params=args
+comment2.target=void\ main(java.lang.String[])
+comment3.params=n
+comment3.target=int\ fibonacci(int)
+comment3.text=\ Torna\ el\ n-\u00E8sim\ terme\ de\ la\ s\u00E8rie\ de\ Fibonacci\r\n\ \ Precondici\u00F3\:\ n>\=0\ \r\n
+numComments=4

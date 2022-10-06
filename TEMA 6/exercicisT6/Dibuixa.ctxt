@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=Dibuixa
+comment0.text=\r\n\ Classe\ Dibuixa\:\ classe\ d'utilitats\ amb\ m\u00E8todes\ per\ a\r\n\ dibuixar\ figures\ geom\u00E8triques\r\n\ \r\n\ @author\ IIP\ \r\n\ @version\ Curs\ 2019-20\r\n
+comment1.params=
+comment1.target=Dibuixa()
+comment2.params=base\ altura
+comment2.target=void\ rectangle(int,\ int)
+comment2.text=\ Mostra\ per\ pantalla\ un\ rectangle\ de\ \r\n\ \ base\ i\ altura\ donades\ utilitzant\ *\r\n
+comment3.params=base
+comment3.target=void\ triangleRec(int)
+comment3.text=\ Mostra\ per\ pantalla\ un\ triangle\ rectangle\ de\ \r\n\ \ base\ donada\ utilitzant\ *\r\n
+comment4.params=base
+comment4.target=void\ triangleRec2(int)
+comment5.params=n
+comment5.target=void\ zeta(int)
+comment5.text=\ Mostra\ per\ pantalla,\ donat\ un\ enter\ n>\=0,\ una\ zeta\ \r\n\ \ utilitzant\ el\ car\u00E0cter\ 'Z'\ en\ n\ l\u00EDnies\r\n
+numComments=6

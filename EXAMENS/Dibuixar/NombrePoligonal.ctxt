@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=NombrePoligonal
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ NombrePoligonal\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (2018/19)\r\n
+comment1.params=
+comment1.target=NombrePoligonal()
+comment2.params=k\ l
+comment2.target=boolean\ Comprobat(int,\ int)
+comment2.text=Precondicio\:\ k\ >\ 0\ i\ l\ >\ 2
+numComments=3

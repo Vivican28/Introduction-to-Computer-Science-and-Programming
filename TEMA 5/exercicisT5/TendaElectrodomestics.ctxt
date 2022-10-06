@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=TendaElectrodomestics
+comment0.text=\r\n\ Classe\ TendaElectrodomestics\:\ en\ una\ tenda\ d\u2019electrodom\u00E8stics,\ per\ liquidaci\u00F3,\ \r\n\ s\u2019apliquen\ distints\ descomptes\ en\ funci\u00F3\ del\ total\ de\ les\ compres\ realitzades\:\r\n\ -\ Si\ total\ <\ 500\ \u20AC,\ no\ s\u2019aplica\ descompte.\r\n\ -\ Si\ 500\ \u20AC\ <\=\ total\ <\=\ 2000\ \u20AC,\ s\u2019aplica\ un\ descompte\ del\ 30%.\r\n\ -\ Si\ total\ >\ 2000\ \u20AC,\ aleshores\ s\u2019aplica\ un\ descompte\ del\ 50%.\u00A0\r\n\ \r\n\ Per\ tal\ d\u2019implementar\ el\ problema\ en\ Java,\ s\u2019ha\ d\u2019usar\ una\ \u00FAnica\ variable\ \r\n\ (total\ de\ tipus\ double)\ que\ emmagatzema\ el\ total\ de\ les\ compres\ realitzades\ \r\n\ (abans\ d\u2019aplicar\ el\ descompte)\ i\ tamb\u00E9\ el\ total\ a\ cobrar\ (despr\u00E9s\ d\u2019aplicar\ \r\n\ el\ descompte\ corresponent).\ \u00C9s\ a\ dir,\ la\ variable\ total\ \u00E9s,\ a\ la\ vegada,\ \r\n\ dada\ i\ resultat.\ S\u2019ha\ de\ resoldre\ el\ problema\ amb\ una\ \u00FAnica\ instrucci\u00F3\ \r\n\ condicional\ (niuada).\ \r\n\ Completar\ la\ instrucci\u00F3\ si\ la\ condici\u00F3\ \u00E9s\ total>\=500\ o\ total<\=2000.\r\n\r\n\ @author\ IIP\ \r\n\ @version\ Curs\ 2019/20\r\n
+comment1.params=
+comment1.target=TendaElectrodomestics()
+comment2.params=args
+comment2.target=void\ main(java.lang.String[])
+numComments=3

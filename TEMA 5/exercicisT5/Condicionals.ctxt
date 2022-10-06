@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=Condicionals
+comment0.text=\r\n\ Classe\ Condicionals\:\ exemples\ de\ m\u00E8todes\ que\ utilitzen\ instruccions\ \r\n\ condicionals.\r\n\ \r\n\ @author\ IIP\ \r\n\ @version\ Curs\ 2019/20\r\n
+comment1.params=
+comment1.target=Condicionals()
+comment2.params=x\ c
+comment2.target=void\ exercici4(int,\ char)
+comment2.text=\r\n\ Donats\ un\ enter\ x\ i\ un\ char\ c,\ mostra\ per\ pantalla\r\n\ un\ missatge\ en\ funci\u00F3\ dels\ valors\ de\ x\ i\ c.\r\n\ @param\ x\ int,\ l'enter.\r\n\ @param\ c\ char,\ el\ car\u00E0cter.\r\n
+comment3.params=a\ b\ c
+comment3.target=void\ deMajorAMenor3(int,\ int,\ int)
+comment3.text=\r\n\ Donats\ tres\ valors\ enters\ distints\ qualsevol,\ els\ mostra\ \r\n\ per\ pantalla\ ordenadament,\ de\ major\ a\ menor.\r\n\ @param\ a\ int,\ el\ primer\ enter.\r\n\ @param\ b\ int,\ el\ segon\ enter.\r\n\ @param\ c\ int,\ el\ tercer\ enter.\r\n
+comment4.params=a\ b\ c
+comment4.target=boolean\ simplifica(int,\ int,\ int)
+comment4.text=\r\n\ Donats\ tres\ valors\ enters\ a,\ b\ i\ c,\ implementa\ distintes\ solucions\ a\ \r\n\ l'an\u00E0lisi\ per\ casos\ seg\u00FCent,\ fent\ \u00FAs\ de\:\ operadors\ curtcircuitats\ i\ \r\n\ instruccions\ condicionals.\r\n\ \ \ \ \ \ a\ >\ b\ ->\ true\r\n\ \ \ \ \ \ a\ <\ b\ ->\ false\r\n\ \ \ \ \ \ a\ \=\=\ b\ i\ a\ >\ c\ ->\ true\r\n\ \ \ \ \ \ a\ \=\=\ b\ i\ a\ <\ c\ ->\ false\r\n\ \ \ \ \ \ a\ \=\=\ b\ i\ a\ \=\=\ c\ ->\ false\r\n\ \r\n\ @param\ a\ int,\ primer\ enter\r\n\ @param\ b\ int,\ segon\ enter\r\n\ @param\ c\ int,\ tercer\ enter\r\n\ @return\ boolean,\ resultat\ \r\n
+comment5.params=args
+comment5.target=void\ main(java.lang.String[])
+comment5.text=\ \r\n\ M\u00E8tode\ principal\ que\ prova\ els\ m\u00E8todes\ anteriors.\r\n
+numComments=6

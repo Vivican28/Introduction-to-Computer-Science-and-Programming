@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.target=RecorregutOCerca
+comment0.text=\r\n\ Classe\ RecorregutOCerca\:\ m\u00E8todes\ que,\ en\ funci\u00F3\ del\ sentit\ (ascendent\r\n\ o\ descendent)\ en\ qu\u00E8\ es\ visiten\ els\ elements\ de\ l'array,\ es\ resolen\ com\ \r\n\ recorregut,\ com\ cerca\ o\ com\ una\ combinaci\u00F3\ de\ les\ dues\ estrategies.\r\n\ \r\n\ @author\ IIP\ \r\n\ @version\ Curs\ 2019-20\r\n
+comment1.params=
+comment1.target=RecorregutOCerca()
+comment2.params=v
+comment2.target=int\ blancsFinalAsc(char[])
+comment2.text=\ Donat\ un\ array\ de\ car\u00E0cters\ v,\ compta\ quants\ espais\ en\ blanc\ \r\n\ \ apareixen\ (consecutius)\ al\ final\ de\ l'array.\r\n\ \ @param\ v\ char[]\ (v.length\ >\ 0).\r\n\ \ @return\ int,\ n\u00FAmero\ d'espais\ en\ blanc\ consecutius\ al\ final\ de\ l'array.\r\n\ \ Estrat\u00E8gia\:\ Recorregut\ iteratiu\ ascendent.\ \r\n
+comment3.params=v
+comment3.target=int\ blancsFinalDesc(char[])
+comment3.text=\ Donat\ un\ array\ de\ car\u00E0cters\ v,\ compta\ quants\ espais\ en\ blanc\ \r\n\ \ apareixen\ (consecutius)\ al\ final\ de\ l'array.\r\n\ \ @param\ v\ char[]\ (v.length\ >\ 0).\ \r\n\ \ @return\ int,\ n\u00FAmero\ d'espais\ en\ blanc\ consecutius\ al\ \r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ final\ de\ l'array.\r\n\ \ Estrat\u00E8gia\:\ Cerca\ linial\ iterativa\ descendent.\ \r\n
+comment4.params=v
+comment4.target=int\ posUltimSenarAsc(int[])
+comment4.text=\ Donat\ un\ array\ d'enters\ v,\ obt\u00E9\ la\ posici\u00F3\ \ \r\n\ \ de\ l'\u00FAltim\ element\ senar\ de\ l'array.\r\n\ \ @param\ v\ int[]\ (v.length\ >\ 0).\r\n\ \ @return\ int,\ posici\u00F3\ de\ l'\u00FAltim\ senar\ o\ \r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ -1\ si\ no\ hi\ ha\ senars\ a\ l'array.\r\n\ \ Estrat\u00E8gia\:\ Recorregut\ iteratiu\ ascendent.\ \r\n
+comment5.params=v
+comment5.target=int\ posUltimSenarDesc(int[])
+comment5.text=\ Donat\ un\ array\ d'enters\ v,\ obt\u00E9\ la\ posici\u00F3\ \r\n\ \ de\ l'\u00FAltim\ element\ senar\ de\ l'array.\r\n\ \ @param\ v\ int[]\ (v.length\ >\ 0).\r\n\ \ @return\ int,\ posici\u00F3\ de\ l'\u00FAltim\ senar\ o\ \r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ -1\ si\ no\ hi\ ha\ senars\ a\ l'array.\r\n\ \ Estrat\u00E8gia\:\ Cerca\ linial\ iterativa\ descendent.\ \r\n
+comment6.params=v
+comment6.target=int\ sumaDespresPrimerSenar(int[])
+comment6.text=\ Donat\ un\ array\ d'enters\ positius\ v,\ suma\ els\ elements\r\n\ \ que\ apareixen\ despr\u00E9s\ del\ primer\ senar.\r\n\ \ @param\ v\ int[]\ (v.length\ >\ 0,\ v[i]\ >\=\ 0,\ 0\ <\=\ i\ <\ v.length).\r\n\ \ @return\ int,\ suma\ dels\ elements\ que\ apareixen\ despr\u00E9s\ del\r\n\ \ \ \ \ \ \ \ \ \ primer\ senar,\ o\ -1\ si\ no\ hi\ ha\ senars\ a\ l'array.\r\n\ \ Estrat\u00E8gia\:\ Cerca\ linial\ iterativa\ ascendent\ \ \r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ +\ Recorregut\ iteratiu\ ascendent.\ \r\n
+comment7.params=a
+comment7.target=java.lang.String\ duplicatsLlista(java.lang.String[])
+comment7.text=\ Donat\ un\ array\ de\ String,\ determinar\ per\ a\ cada\ String\ de\ l'array\ \r\n\ \ la\ primera\ repetici\u00F3.\ El\ resultat\ ha\ de\ ser\ un\ String\ en\ el\ qual\ \r\n\ \ en\ cada\ l\u00EDnia\ estiga\ la\ dada\ i\ les\ dues\ posicions\ en\ les\ quals\ apareix.\r\n\ \ @param\ a\ String[]\ (a.length\ >\ 0).\r\n\ \ @return\ String,\ el\ resultat\ en\ el\ format\ indicat.\r\n\ \ Estrat\u00E0gia\:\ Recorregut\ ascendent\ de\ l'array\ en\ qu\u00E8\ per\ a\ cada\ element\ \r\n\ \ es\ realitzar\u00E0,\ a\ la\ vegada,\ la\ cerca\ ascendent\ d'una\ component\ igual\ \r\n\ \ a\ ell\ des\ de\ la\ seua\ posici\u00F3\ en\ endavant.\r\n
+comment8.params=args
+comment8.target=void\ main(java.lang.String[])
+numComments=9

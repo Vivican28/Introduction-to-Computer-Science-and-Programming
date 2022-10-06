@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Menjar
+comment0.text=\r\n\ Classe\ Menjar\:\ representa\ un\ menjar\ amb\ les\ seues\ calories\r\n\ i\ el\ seu\ temps\ de\ preparaci\u00F3\ en\ minuts.\r\n\ \r\n\ @author\ IIP\ \r\n\ @version\ Curs\ 2019-20\r\n
+comment1.params=c\ m
+comment1.target=Menjar(double,\ int)
+comment1.text=\r\n\ Crea\ un\ Menjar\ amb\ un\ nombre\ de\ calories\ i\r\n\ minuts\ de\ preparaci\u00F3\ donats.\r\n\ @param\ c\ double,\ les\ calories.\r\n\ @param\ m\ int,\ els\ minuts\ de\ preparaci\u00F3.\r\n
+comment2.params=
+comment2.target=double\ getCalories()
+comment2.text=\ Torna\ les\ calories\ del\ Menjar.\r\n\ \ @return\ double,\ les\ calories.\r\n
+comment3.params=
+comment3.target=int\ getMinutsPrep()
+comment3.text=\ Torna\ els\ minuts\ de\ preparaci\u00F3\ del\ Menjar.\ \r\n\ \ @return\ int,\ els\ minuts.\ \ \r\n
+comment4.params=c
+comment4.target=void\ setCalories(double)
+comment4.text=\ Actualitza\ les\ calories\ del\ Menjar\ a\ c.\ \r\n\ \ @param\ c\ double,\ les\ noves\ calories.\ \ \r\n
+comment5.params=m
+comment5.target=void\ setMinutsPrep(int)
+comment5.text=\ Actualitza\ els\ minuts\ de\ preparaci\u00F3\ del\ Menjar\ a\ m.\r\n\ \ @param\ m\ int,\ els\ nous\ minuts\ de\ preparaci\u00F3.\ \ \r\n
+comment6.params=
+comment6.target=java.lang.String\ toString()
+comment6.text=\ Torna\ un\ String\ amb\ la\ informaci\u00F3\ del\ menjar,\r\n\ \ en\ el\ format\:\r\n\ \ "Menjar\ amb\ ccc\ cal.\ i\ mmm\ min.\ de\ preparaci\u00F3"\ \r\n\ \ @return\ String.\r\n
+comment7.params=altre
+comment7.target=int\ compareTo(Menjar)
+comment7.text=\r\n\ Torna\ un\ n\u00FAmero\ negatiu\ si\ el\ Menjar\ \u00E9s\ m\u00E9s\ s\u00E0\ \r\n\ que\ un\ altre,\ un\ zero\ si\ s\u00F3n\ igual\ de\ sans\ i\r\n\ un\ n\u00FAmero\ positiu\ si\ el\ m\u00E9s\ s\u00E0\ \u00E9s\ l'altre.\r\n\ Un\ menjar\ \u00E9s\ m\u00E9s\ s\u00E0\ que\ un\ altre\ si\ aporta\ menys\ \r\n\ calories\ que\ l\u2019altre\ i,\ a\ igualtat\ de\ calories,\ \r\n\ si\ se\ prepara\ en\ un\ temps\ menor\ que\ l\u2019altre.\r\n\ @param\ altre\ Menjar\ a\ comparar.\r\n\ @return\ int.\r\n
+numComments=8

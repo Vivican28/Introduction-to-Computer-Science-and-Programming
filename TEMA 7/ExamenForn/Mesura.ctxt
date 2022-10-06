@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Mesura
+comment0.text=\r\n\ Classe\ Mesura\ per\ representar\ els\ valors\ de\ la\ temperatura\ i\ pressio\ \r\n\ d'un\ forn\ industrial\ en\ un\ instant\ determinat.\r\n\ \r\n\ @author\ IIP\r\n\ @version\ Curs\ 2011-12\r\n
+comment1.params=p\ t
+comment1.target=Mesura(double,\ int)
+comment1.text=\r\n\ Crea\ una\ Mesura\ amb\ certa\ pressio\ p\ i\ temperatura\ t\ donades.\r\n\ @param\ p\ double,\ la\ pressio.\r\n\ @param\ t\ int,\ la\ temperatura.\r\n
+comment2.params=
+comment2.target=double\ getPressio()
+comment2.text=\ Torna\ la\ pressio\ de\ la\ Mesura.\r\n\ \ @return\ double,\ la\ pressio.\r\n
+comment3.params=
+comment3.target=int\ getTemperatura()
+comment3.text=\ Torna\ la\ temperatura\ de\ la\ Mesura.\r\n\ \ @return\ int,\ la\ temperatura.\r\n
+comment4.params=
+comment4.target=java.lang.String\ toString()
+comment4.text=\ Torna\ un\ String\ amb\ la\ informacio\ de\ la\ Mesura.\r\n\ \ @return\ String.\r\n
+comment5.params=
+comment5.target=int\ getEstat()
+comment5.text=\ Torna\ PROBLEMA2\ si\ temperatura\ i\ pressio\ son\ els\ dos\ excessius;\r\n\ \ torna\ PROBLEMA1\ si\ be\ la\ temperatura,\ be\ la\ pressio,\ son\ excessius;\r\n\ \ torna\ CORRECTA\ en\ cas\ contrari\ (ningun\ es\ excessiu).\r\n\ \ @return\ int.\r\n
+numComments=6

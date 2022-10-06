@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=Lectura
+comment0.text=\r\n\ Class\ Lectura\:\ classe\ d'utilitats\ amb\ m\u00E8todes\ \r\n\ per\ a\ lectura\ validada\r\n\ @author\ IIP\ \r\n\ @version\ Curs\ 2019-20\r\n
+comment1.params=
+comment1.target=Lectura()
+comment2.params=msg\ tec
+comment2.target=int\ llegirIntPos(java.lang.String,\ java.util.Scanner)
+comment2.text=\ Torna\ un\ valor\ enter\ positiu\ llegit\ des\ de\ tec\ \r\n\ \ segons\ la\ petici\u00F3\ expressada\ en\ el\ mitssage\ msg.\ \r\n
+comment3.params=msg\ tec\ x\ y
+comment3.target=int\ llegirIntEntre(java.lang.String,\ java.util.Scanner,\ int,\ int)
+comment3.text=\ Torna\ un\ valor\ enter\ compr\u00E8s\ entre\ x\ i\ y,\ llegit\ des\ de\ tec\ \r\n\ \ segons\ la\ petici\u00F3\ expressada\ en\ el\ mitssage\ msg.\ \ \r\n\ \ Precondici\u00F3n\:\ x\ <\=\ y\r\n
+comment4.params=msg\ tec
+comment4.target=double\ llegirDoublePos(java.lang.String,\ java.util.Scanner)
+comment4.text=\ Torna\ un\ valor\ real\ positiu\ llegit\ des\ de\ tec\ \r\n\ \ segons\ la\ petici\u00F3\ expressada\ en\ el\ mitssage\ msg.\ \r\n
+comment5.params=msg\ tec\ x\ y
+comment5.target=double\ llegirDoubleEntre(java.lang.String,\ java.util.Scanner,\ double,\ double)
+comment5.text=\ Torna\ un\ valor\ real\ compr\u00E8s\ entre\ x\ i\ y,\ llegit\ des\ de\ tec\ \r\n\ \ segons\ la\ petici\u00F3\ expressada\ en\ el\ mitssage\ msg.\ \ \r\n\ \ Precondici\u00F3n\:\ x\ <\=\ y\r\n
+numComments=6

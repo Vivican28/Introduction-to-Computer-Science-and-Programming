@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Contacte
+comment0.text=\r\n\ Classe\ Contacte\:\ representa\ un\ contacte\ (basic)\ d'una\ agenda\ mitjan\u00E7ant\ dos\r\n\ atributs\ de\ tipus\ String\:\ el\ que\ representa\ el\ nom\ del\ contacte\ (nom),\r\n\ i\ el\ que\ representa\ el\ telefon\ associat\ a\ aquest\ nom\ (telefon).\r\n\ Es\ important\ notar\ que\ per\ accedir\ a\ un\ telefon\ de\ l'agenda\ es\ \r\n\ imprescindible\ cercar\ primer\ el\ nom\ a\ ell\ associat,\ de\ manera\ que\ el\ nom\ \r\n\ es\ pot\ considerar\ una\ clau\ d'acces\ a\ la\ informacio\ que\ conte\ una\ agenda.\r\n\r\n\ Per\ definir\ la\ funcionalitat\ (basica)\ d'un\ contacte\ --crear\ un\ contacte,\r\n\ consultar\ o\ modificar\ les\ seues\ components,\ comprovar\ si\ un\ contacte\ es\ \r\n\ igual\ a\ un\ altre\ i\ toString--\ la\ classe\ Contacte\ defineix\ els\ metodes\ \r\n\ que\ figuren\ a\ continuacio;\ cal\ notar\ que\ el\ seu\ codi\ es\ limita\ a\ manipular\ \r\n\ els\ atributs\ de\ la\ classe\ per\ implementar\ aquesta\ funcionalitat.\r\n\ \r\n\ @author\ IIP\r\n\ @version\ Curs\ 2019-20\r\n
+comment1.params=n\ t
+comment1.target=Contacte(java.lang.String,\ java.lang.String)
+comment1.text=\r\n\ Crea\ un\ Contacte\ a\ partir\ d'un\ telefon\ i\ un\ nom.\r\n\ @param\ telefon\ String,\ un\ telefon.\r\n\ @param\ nom\ String,\ un\ nom.\r\n
+comment2.params=
+comment2.target=java.lang.String\ getTelefon()
+comment2.text=\r\n\ Torna\ el\ telefon.\r\n\ @return\ String,\ el\ telefon.\r\n
+comment3.params=
+comment3.target=java.lang.String\ getNom()
+comment3.text=\r\n\ Torna\ el\ nom.\r\n\ @return\ String,\ el\ nom.\r\n
+comment4.params=nouTelefon
+comment4.target=void\ setTelefon(java.lang.String)
+comment4.text=\r\n\ Actualitza\ el\ telefon.\r\n\ @param\ nouTelefon\ String,\ el\ nou\ telefon.\r\n
+comment5.params=nouNom
+comment5.target=void\ setNom(java.lang.String)
+comment5.text=\r\n\ Actualitza\ el\ nom.\r\n\ @param\ nouNom\ String,\ el\ nou\ nom.\r\n
+comment6.params=
+comment6.target=java.lang.String\ toString()
+comment6.text=\r\n\ Sobreescriptura\ del\ metode\ toString\ de\ Object.\r\n\ @return\ String,\ informacio\ del\ Contacte\ actual.\r\n
+comment7.params=o
+comment7.target=boolean\ equals(java.lang.Object)
+comment7.text=\r\n\ Sobreescriptura\ del\ metode\ equals\ d'Object,\ per\ tal\ de\ comprovar\ \r\n\ si\ un\ contacte\ es\ igual\ a\ un\ altre\ donat.\ Recordant\ que\ el\ nom\ \r\n\ d'un\ contacte\ es\ la\ clau\ d'acces\ al\ telefon\ cercat,\ es\ considera\ \r\n\ que\ un\ contacte\ es\ igual\ a\ un\ altre\ si\ i\ nomes\ si\ el\ seu\ nom\ \r\n\ coincideix\ amb\ el\ de\ l'altre.\r\n\ \r\n\ @param\ o\ Object,\ objecte\ a\ comparar\ amb\ el\ Contacte\ actual.\r\n\ @return\ boolean,\ true\ si\ son\ iguals\ i\ false\ si\ no\ ho\ son.\r\n
+numComments=8

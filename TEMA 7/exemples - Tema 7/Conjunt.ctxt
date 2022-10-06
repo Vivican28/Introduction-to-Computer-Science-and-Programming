@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Conjunt
+comment0.text=\r\n\ Classe\ Conjunt\:\ permet\ representar\ un\ conjunt\ de\ naturals\r\n\ \r\n\ @author\ IIP\r\n\ @version\ Curs\ 2019-20\r\n
+comment1.params=ult
+comment1.target=Conjunt(int)
+comment1.text=\ Crea\ un\ conjunt\ buit\ que\ contindra\ \r\nnaturals\ en\ el\ rang\ [0..ult],\ ult\ >\ 0
+comment2.params=x
+comment2.target=boolean\ pertany(int)
+comment2.text=\ Comprova\ si\ un\ x\ donat\ pertany\ o\ no\ al\ conjunt,\ \r\n0\ <\=\ x\ <\=\ ultim
+comment3.params=x
+comment3.target=void\ afegeix(int)
+comment3.text=\ Afegeix\ al\ conjunt\ un\ x\ donat,\r\n0\ <\=\ x\ <\=\ ultim
+comment4.params=x
+comment4.target=void\ elimina(int)
+comment4.text=\ Elimina\ del\ conjunt\ un\ x\ donat,\r\n0\ <\=\ x\ <\=\ ultim
+comment5.params=
+comment5.target=int\ cardinal()
+comment5.text=Torna\ el\ cardinal\ del\ conjunt
+comment6.params=
+comment6.target=void\ setAlAtzar()
+comment6.text=\ Genera\ de\ forma\ aleatoria\ els\ elements\ \r\ndel\ conjunt
+numComments=7

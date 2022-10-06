@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=CalculEx
+comment0.text=\r\n\ Classe\ CalculEx\:\ m\u00E8todes\ que\ implementen\ el\ desenvolupament\ \r\n\ en\ serie\ de\ Taylor\ per\ al\ c\u00E0lcul\ d'e^x.\r\n\ \r\n\ @author\ IIP\ \r\n\ @version\ Curs\ 2019-20\r\n
+comment1.params=
+comment1.target=CalculEx()
+comment2.params=x\ n
+comment2.target=void\ mostraTerms(int,\ int)
+comment2.text=\r\n\ Mostra\ el\ valor\ dels\ n\ primers\ termes\ de\ la\ s\u00E8rie\ de\ Taylor,\ \r\n\ per\ a\ valors\ de\ x\ i\ de\ n\ donats,\ x>\=0\ i\ n>\=0.\r\n
+comment3.params=x\ n
+comment3.target=double\ sumaExpFins(int,\ int)
+comment3.text=\r\n\ Calcula\ la\ suma\ dels\ n+1\ primers\ termes\ de\ la\ s\u00E8rie\ de\ Taylor,\ \r\n\ per\ a\ valors\ de\ x\ i\ de\ n\ donats,\ x>\=0\ i\ n>\=0.\r\n
+comment4.params=x\ epsilon
+comment4.target=double\ exp(double,\ double)
+comment4.text=\ \r\n\ \ Donats\ un\ valor\ enter\ x>\=0\ i\ un\ valor\ real\ epsilon,\ 0<epsilon<\=1,\r\n\ \ calcula\ el\ valor\ d\u2019e^x\ mitjan\u00E7ant\ el\ desenvolupament\ en\ s\u00E8rie\ de\r\n\ \ Taylor\ amb\ un\ error\ epsilon\ (sumant\ tots\ els\ termes\ generats\ fins\ \ \r\n\ \ que\ l\u2019\u00FAltim\ calculat\ siga\ menor\ que\ epsilon).\ \ \r\n
+numComments=5

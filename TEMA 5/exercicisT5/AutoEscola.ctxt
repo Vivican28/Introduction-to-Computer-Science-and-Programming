@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=AutoEscola
+comment0.text=\r\n\ Classe\ AutoEscola\:\ Calcula\ la\ tarifa\ d'una\ autoescola\ tenint\ en\ compte\r\n\ el\ tipus\ de\ carnet\ (A,\ B,\ C,\ D)\ i\ el\ n\u00FAmero\ de\ pr\u00E0ctiques\ realitzades.\r\n\ Preus\ de\ les\ matr\u00EDcules\ (en\ euros)\:\ A\ 150,\ B\ 325,\ C\ 520,\ D\ 610.\ \r\n\ Preus\ per\ pr\u00E0ctica\ segons\ carnet\ (en\ euros)\:\ A\ 15,\ B\ 21,\ C\ 36,\ D\ 50.\r\n\r\n\ @author\ IIP\ \r\n\ @version\ Curs\ 2019/20\r\n
+comment1.params=
+comment1.target=AutoEscola()
+comment2.params=args
+comment2.target=void\ main(java.lang.String[])
+comment3.params=carnet\ numPr
+comment3.target=int\ tarifa(char,\ int)
+comment3.text=\r\n\ Calcula\ la\ tarifa\ d'una\ autoescola\ segons\ el\ tipus\ de\ carnet\ \r\n\ (A,\ B,\ C,\ D)\ i\ el\ n\u00FAmero\ de\ pr\u00E0ctiques\ realitzades.\r\n\ Preus\ de\ les\ matr\u00EDcules\ (en\ euros)\:\ A\ 150,\ B\ 325,\ C\ 520,\ D\ 610.\ \r\n\ Preus\ per\ pr\u00E0ctica\ segons\ carnet\ (en\ euros)\:\ A\ 15,\ B\ 21,\ C\ 36,\ D\ 50.\r\n\r\n\ @param\ carnet\ char,\ tipus\ de\ carnet.\r\n\ @param\ numPr\ int,\ n\u00FAmero\ de\ pr\u00E0ctiques.\ \r\n\ @return\ int,\ la\ tarifa\ de\ l'autoescola.\r\n
+numComments=4

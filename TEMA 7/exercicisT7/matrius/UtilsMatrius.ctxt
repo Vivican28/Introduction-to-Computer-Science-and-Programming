@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=UtilsMatrius
+comment0.text=\r\n\ Classe\ UtilsMatrius\:\ classe\ d'utilitats\ que\ permet\ \r\n\ fer\ operacions\ amb\ matrius.\r\n\ \r\n\ @author\ IIP\r\n\ @version\ Curs\ 2019-20\r\n
+comment1.params=
+comment1.target=UtilsMatrius()
+comment2.params=a\ b
+comment2.target=int[][]\ sumaMat(int[][],\ int[][])
+comment2.text=\ \r\n\ Torna\ la\ suma\ de\ dues\ matrius\ a\ i\ b\ donades.\r\n\ a\ i\ b\ tenen\ la\ mateixa\ dimensi\u00F3\ m\ x\ n,\ m>0,\ n>0.\r\n\ La\ matriu\ resultat\ tindr\u00E0\ dimensi\u00F3\ m\ x\ n.\r\n\ @param\ a\ int[][].\r\n\ @param\ b\ int[][].\r\n\ @return\ int[][],\ matriu\ suma.\r\n
+comment3.params=a\ b
+comment3.target=int[][]\ producteMat(int[][],\ int[][])
+comment3.text=\ \r\n\ Torna\ el\ producte\ de\ dues\ matrius\ a\ i\ b\ donades.\r\n\ a\ \u00E9s\ de\ dimensi\u00F3\ m\ x\ n\ i\ b\ de\ dimensi\u00F3\ n\ x\ p,\ m>0,\ n>0,\ p>0.\r\n\ La\ matriu\ resultat\ tindr\u00E0\ dimensi\u00F3\ m\ x\ p.\r\n\ @param\ a\ int[][].\r\n\ @param\ b\ int[][].\r\n\ @return\ int[][],\ matriu\ producte.\ \ \ \r\n
+comment4.params=a\ v
+comment4.target=int[]\ matPerVec(int[][],\ int[])
+comment4.text=\ \r\n\ Torna\ el\ producte\ de\ matriu\ a\ per\ vector\ v.\r\n\ a\ \u00E9s\ de\ dimensi\u00F3\ m\ x\ n\ i\ v\ de\ dimensi\u00F3\ n,\ m>0,\ n>0.\r\n\ El\ vector\ resultat\ tindr\u00E0\ dimensi\u00F3\ m.\r\n\ @param\ a\ int[][].\r\n\ @param\ v\ int[].\r\n\ @return\ int[][],\ producte\ de\ matriu\ per\ vector.\r\n
+comment5.params=a
+comment5.target=int[][]\ transpMat(int[][])
+comment5.text=\ \r\n\ Torna\ la\ transposada\ d'una\ matriu\ a\ donada.\r\n\ a\ \u00E9s\ de\ dimensi\u00F3\ m\ x\ n,\ m>0,\ n>0.\r\n\ La\ matriu\ resultat\ tindr\u00E0\ dimensi\u00F3\ n\ x\ m.\r\n\ @param\ a\ int[][].\r\n\ @return\ int[][],\ matriu\ transposada.\r\n
+comment6.params=a
+comment6.target=void\ transpMatQuad(int[][])
+comment6.text=\ \r\n\ Transposa\ una\ matriu\ quadrada.\r\n\ a\ \u00E9s\ de\ dimensi\u00F3\ n\ x\ n,\ n>0.\r\n\ @param\ a\ int[][].\r\n
+numComments=7

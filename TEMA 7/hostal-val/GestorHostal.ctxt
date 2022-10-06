@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.target=GestorHostal
+comment0.text=\r\n\ Classe\ GestorHostal\:\ permet\ provar\ el\ comportament\ de\ les\ classes\r\n\ {@link\ Hostal}\ i\ {@link\ Client}.\ \r\n\ \r\n\ @author\ IIP\ \r\n\ @version\ Curs\ 2019/20\r\n
+comment1.params=
+comment1.target=GestorHostal()
+comment2.params=t
+comment2.target=int\ menu(java.util.Scanner)
+comment2.text=\r\n\ Mostra\ per\ pantalla\ un\ menu\ amb\ les\ operacions\ que\r\n\ es\ poden\ realitzar\ en\ un\ hostal.\r\n\ @param\ t\ {@code\ Scanner}.\r\n\ @return\ {@code\ int},\ l'opcio\ triada.\r\n
+comment3.params=args
+comment3.target=void\ main(java.lang.String[])
+comment3.text=\r\n\ Metode\ {@code\ main()}\ pel\ qual\ comen\u00E7a\ l'execucio\ de\ \r\n\ les\ proves\ sobre\ la\ classe\ {@link\ Hostal}.\r\n\ @param\ args\ {@code\ String[]}.\r\n
+comment4.params=h\ t
+comment4.target=void\ entrada(Hostal,\ java.util.Scanner)
+comment4.text=\r\n\ Metode\ que\ fa\ el\ check\ in\ d'un\ client\ a\ l'hostal\ donat.\r\n\ @param\ h\ {@code\ Hostal},\ l'hostal.\r\n\ @param\ t\ {@code\ Scanner}.\r\n
+comment5.params=h\ t
+comment5.target=void\ eixida(Hostal,\ java.util.Scanner)
+comment5.text=\r\n\ Metode\ que\ fa\ el\ check\ out\ d'un\ client\ a\ l'hostal\ donat.\r\n\ @param\ h\ {@code\ Hostal},\ l'hostal.\r\n\ @param\ t\ {@code\ Scanner}.\r\n
+comment6.params=h\ t
+comment6.target=void\ eixidaData(Hostal,\ java.util.Scanner)
+comment6.text=\r\n\ Metode\ que\ fa\ el\ check\ out\ en\ una\ data\ determinada\ \r\n\ de\ tots\ els\ clients\ que\ la\ tenen\ com\ data\ d'eixida\r\n\ a\ l'hostal\ donat.\r\n\ @param\ h\ {@code\ Hostal},\ l'hostal.\r\n\ @param\ t\ {@code\ Scanner}.\r\n
+comment7.params=h
+comment7.target=void\ clientsPC(Hostal)
+comment7.text=\r\n\ Metode\ que\ mostra\ per\ pantalla\ les\ dades\ dels\ pacients\ critics\ \r\n\ d'un\ hospital\ donat.\r\n\ @param\ h\ {@code\ Hospital},\ l'hospital.\r\n
+numComments=8

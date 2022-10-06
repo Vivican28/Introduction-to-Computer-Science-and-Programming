@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=PasParametres
+comment0.text=\r\n\ Class\ PasParametres\:\ classe\ programa\ que\ exemplifica\ el\ pas\ de\r\n\ par\u00E0metres\ amb\ variables\ de\ tipus\ primitiu\ i\ refer\u00E8ncia.\r\n\ Per\ fer\ la\ tra\u00E7a\ amb\ el\ depurador\ de\ BlueJ,\ estableix\ un\ \r\n\ punt\ de\ ruptura\ en\ les\ l\u00EDnies\ del\ main\ on\ s'invoca\ als\ m\u00E8todes\ \r\n\ intercanvi\ i\ intercanviX.\r\n\ \r\n\ @author\ IIP\ \r\n\ @version\ 2019-20\r\n
+comment1.params=
+comment1.target=PasParametres()
+comment2.params=a\ b
+comment2.target=void\ intercanvi(int,\ int)
+comment3.params=a\ b
+comment3.target=void\ intercanvi(Punt,\ Punt)
+comment4.params=args
+comment4.target=void\ main(java.lang.String[])
+numComments=5

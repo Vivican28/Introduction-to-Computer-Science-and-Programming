@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=TestCercle
+comment0.text=\r\n\ Classe\ TestCercle\:\ classe\ programa\ que\ prova\ les\ classes\ Cercle\ i\ Punt.\r\n\ \r\n\ @author\ IIP\ \r\n\ @version\ Curs\ 2019-20\r\n
+comment1.params=
+comment1.target=TestCercle()
+comment1.text=No\ hi\ ha\ objectes\ d'aquesta\ classe.
+comment2.params=t
+comment2.target=int\ menu(java.util.Scanner)
+comment2.text=\ Torna\ un\ enter,\ llegit\ des\ de\ l'entrada\ est\u00E0ndard\ (teclat),\ \r\n\ \ que\ indica\ el\ n\u00FAmero\ de\ l'opci\u00F3\ triada\ per\ l'usuari\ d'entre\ \r\n\ \ les\ 4\ possibles\ d'un\ men\u00FA\ mostrat\ en\ l'eixida\ est\u00E0ndard\ \r\n\ \ (pantalla).\r\n\ \ @param\ t\ Scanner,\ l'entrada\ est\u00E0ndard\ (teclat).\r\n\ \ @return\ int,\ el\ n\u00FAmero\ de\ l'opci\u00F3\ del\ men\u00FA\ triada.\r\n
+comment3.params=args
+comment3.target=void\ main(java.lang.String[])
+comment3.text=\ M\u00E8tode\ principal\ de\ l'aplicaci\u00F3.\r\n\ \ @param\ args\ String[].\ \ \r\n
+numComments=4

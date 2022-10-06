@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=PrimerCurs
+comment0.text=\r\n\ Classe\ PrimerCurs\:\ representa\ als\ alumnes\ de\ tots\ els\ grups\ de\ primer\ curs.\r\n\ -\ Per\ poder\ provar\ els\ m\u00E8todes\ d'aquesta\ classe,\ s\u2019ha\ definit\ un\ constructor\ \r\n\ que\ llig\ les\ dades\ d\u2019un\ fitxer\ de\ text\ (alumnes.txt),\ evitant\ d\u2019aquesta\ manera\ \r\n\ tenir\ que\ teclejar-los\ en\ cada\ prova.\r\n\ -\ Comenta\ les\ declaracions\ de\ les\ constants\ ALUMNES\ i\ NOMGRUPS\ i\ descomenta\ les\ \r\n\ que\ hi\ ha\ definides\ a\ continuaci\u00F3\ per\ a\ 3\ grups\ de\ 6,\ 5\ i\ 7\ alumnes,\ respectivament.\r\n\ -\ Crea\ un\ objecte\ PrimerCurs\ amb\ aquest\ constructor,\ passant-li\ com\ a\ par\u00E0metre\ el\ nom\ \r\n\ del\ fitxer\ (\u201DgrupsPrimerCurs/alumnes.txt\u201D).\ Inspecciona\u2019l\ i\ comprova\ que\ els\ alumnes\ \r\n\ se\ corresponen\ amb\ els\ del\ fitxer.\r\n\ \r\n\ @author\ IIP\ \r\n\ @version\ Curs\ 2019-20\r\n
+comment1.params=tec
+comment1.target=PrimerCurs(java.util.Scanner)
+comment1.text=\r\n\ Constructor\ d'un\ objecte\ PrimerCurs.\r\n\ @param\ tec\ Scanner.\r\n
+comment2.params=nomF
+comment2.target=PrimerCurs(java.lang.String)
+comment2.text=\r\n\ Constructor\ d'un\ objecte\ PrimerCurs\ que\ llig\r\n\ les\ dades\ d'un\ fitxer\ el\ nom\ del\ qual\ se\ passa\ com\ a\ parametre\r\n\ Nomes\ serveix\ per\ al\ cas\ particular\ de\ 3\ grups\ amb\ 6,\ 5\ i\ 7\ alumnes\r\n\ Format\ del\ fitxer\:\r\n\ Grup1\r\n\ DNI\ Nota\ Nom\r\n\ DNI\ Nota\ Nom\r\n\ ...\r\n\ Grup2\r\n\ DNI\ Nota\ Nom\r\n\ DNI\ Nota\ Nom\r\n\ ...\r\n
+comment3.params=g
+comment3.target=java.lang.String\ llistarAlumnes(char)
+comment3.text=\ \r\n\ Torna\ un\ llistat\ amb\ la\ informaci\u00F3\ de\ tots\ els\ alumnes\ \r\n\ d'un\ grup\ donat.\r\n\ @param\ g\ char.\ El\ grup.\r\n\ @return\ String,\ el\ llistat.\r\n\ Estrat\u00E8gia\:\ cerca\ linial\ iterativa\ ascendent\ en\ l'array\ NOMGRUPS\ per\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ comprovar\ que\ el\ grup\ \u00E9s\ v\u00E0lid.\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ Si\ ho\ \u00E9s,\ recorregut\ iteratiu\ ascendent\ de\ la\ fila\ de\ \r\n\ \ \ \ \ \ \ \ \ \ \ \ \ l'array\ grups\ que\ representa\ el\ grup.\ \r\n
+comment4.params=
+comment4.target=Alumne\ notaMinima()
+comment4.text=\r\n\ Torna\ el\ darrer\ alumne\ amb\ la\ nota\ m\u00EDnima.\r\n\ @return\ Alumne.\r\n\ Estrat\u00E8gia\:\ recorregut\ iteratiu\ ascendent.\r\n
+comment5.params=
+comment5.target=double[]\ mitjanaGrup()
+comment5.text=\ \r\n\ Torna\ un\ array\ amb\ la\ nota\ mitjana\ de\ cada\ grup.\r\n\ @return\ double[],\ array\ resultat.\r\n\ Estrat\u00E8gia\:\ recorregut\ iteratiu\ ascendent.\r\n
+comment6.params=
+comment6.target=java.lang.String\ matrHonorGrup()
+comment6.text=\r\n\ Torna\ un\ llistat\ amb\ el\ primer\ alumne\ amb\ MH\ de\ cada\ grup.\r\n\ @return\ String,\ el\ llistat.\r\n\ Estrat\u00E8gia\:\ recorregut\ iteratiu\ ascendent\ de\ totes\ les\ files\ \r\n\ \ \ \ \ \ \ \ \ \ \ \ \ de\ l'array\ grups.\ Per\ a\ cada\ fila,\ cerca\ linial\ \r\n\ \ \ \ \ \ \ \ \ \ \ \ \ iterativa\ ascendent\ per\ trobar\ la\ primera\ MH.\r\n
+numComments=7

@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=TemperaturaAnual
+comment0.text=\r\n\ Classe\ TemperaturaAnual\:\ classe\ que\ permet\ representar\ \r\n\ les\ mesures\ de\ temperatura\ mitjana\ en\ una\ zona\ geografica\ \r\n\ per\ a\ cada\ dia\ d'un\ any.\r\n\ \r\n\ @author\ IIP\ \r\n\ @version\ Curs\ 2019-20\r\n
+comment1.params=
+comment1.target=TemperaturaAnual()
+comment1.text=\ \r\n\ Constructor\ d'un\ objecte\ TemperaturaAnual.\r\n
+comment2.params=m\ d
+comment2.target=double\ getTempMitjana(int,\ int)
+comment2.text=\r\n\ Torna\ la\ temperatura\ mitjana\ d'un\ dia\ i\ un\ mes\ donats\ (v\u00E0lids).\r\n\ @param\ m\ int,\ el\ mes.\r\n\ @param\ d\ int,\ el\ dia.\r\n\ @return\ double,\ la\ temperatura.\r\n
+comment3.params=m\ d\ t
+comment3.target=void\ setTempMitjana(int,\ int,\ double)
+comment3.text=\r\n\ Actualitza\ la\ temperatura\ mitjana\ d'un\ dia\ i\ un\ mes\ donats\ (v\u00E0lids).\r\n\ @param\ m\ int,\ el\ mes.\r\n\ @param\ d\ int,\ el\ dia.\r\n\ @param\ t\ double,\ la\ temperatura.\r\n
+comment4.params=
+comment4.target=void\ mostrarTemp()
+comment4.text=\r\n\ Mostra\ la\ temperatura\ enregistrada\ cada\ dia\ de\ l\u2019any.\r\n\ Estrat\u00E8gia\:\ recorregut\ iteratiu\ ascendent.\r\n
+comment5.params=
+comment5.target=void\ mostrarPrimeraMiniDia()
+comment5.text=\r\n\ Mostra\ quina\ \u00E9s\ la\ primera\ mesura\ m\u00EDnima\ i\ quan\ es\ va\ produir.\r\n\ Estrat\u00E8gia\:\ recorregut\ iteratiu\ ascendent.\r\n
+comment6.params=
+comment6.target=void\ mostrarPrimerDia40()
+comment6.text=\r\n\ Mostra\ la\ primera\ data\ en\ qu\u00E8\ es\ van\ enregistrar\ 40\u00BA.\r\n\ Estrat\u00E8gia\:\ cerca\ linial\ iterativa\ ascendent.\r\n
+numComments=7

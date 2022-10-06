@@ -1,0 +1,28 @@
+#BlueJ class context
+comment0.target=Autobus
+comment0.text=\r\n\ Classe\ Autobus\:\ representa\ les\ reserves\ de\ seients\r\n\ d'un\ autobus.\r\n\ \r\n\ @author\ IIP\r\n\ @version\ 2019-20\r\n
+comment1.params=
+comment1.target=Autobus()
+comment1.text=Crea\ un\ Autobus\ buit
+comment2.params=i\ nom
+comment2.target=void\ reservar(int,\ java.lang.String)
+comment2.text=\ Reserva\ el\ seient\ i\ al\ passatger\ nom\r\n\ \ Precondici\u00F3\:\ 0\ <\=\ i\ <\ MAX_PLACES\ i\ places[i]\ lliure\r\n
+comment3.params=i
+comment3.target=void\ cancelar(int)
+comment3.text=\ Cancel.la\ la\ reserva\ del\ seient\ i\ \r\n\ \ Precondici\u00F3\:\ 0\ <\=\ i\ <\ MAX_PLACES\ i\ places[i]\ ocupat\r\n
+comment4.params=
+comment4.target=int\ numeroReserves()
+comment4.text=\ Torna\ el\ numero\ de\ places\ ocupades\ en\ l'Autobus\ \r\n\ \ comptant\ quantes\ posicions\ del\ seu\ array\ places\ \r\nson\ diferents\ de\ null.
+comment5.params=
+comment5.target=java.lang.String\ nomMajor()
+comment5.text=\ Torna\ el\ nom\ del\ passatger\ de\ l'Autobus\ que\ \r\n\ \ tinga\ el\ "nom\ major"\ segons\ l'ordre\ lexicografic\ \r\n
+comment6.params=
+comment6.target=java.lang.String\ llistaPassatgers()
+comment6.text=\ Torna\ un\ String\ amb\ els\ noms\ dels\ passatgers\ i\ \r\n\ \ les\ places\ que\ ocupen.\ \r\n
+comment7.params=
+comment7.target=java.lang.String\ llistaSeientsLliures()
+comment7.text=\ Torna\ un\ String\ amb\ els\ numeros\ de\ seients\ \r\n\ \ que\ no\ estan\ ocupats.\r\n
+comment8.params=
+comment8.target=boolean\ estaComplet()
+comment8.text=\ Torna\ true\ si\ l'Autobus\ esta\ complet\ \r\n\ \ i\ torna\ false,\ en\ cas\ contrari.\r\n
+numComments=9

@@ -1,0 +1,21 @@
+A
+123456 9,7 Pau Gasol
+234567 6,3 Sergio Rodriguez
+345678 8,5 Pau Ribas
+456789 10  Victor Luengo
+567899 8,0 Fernando Romay
+678999 10  Guillem Vives
+B
+987654 8,3 JuanMa Iturriaga
+876543 10 Sergio Llull
+765432 9,5 Felipe Reyes
+654321 9,8 Rudy Fernandez
+543211 6,7 Pablo Aguilar
+C
+111111 7,0 Victor Claver
+222222 7,5 Nikola Mirotic
+333333 8,6 Fernando San Emeterio
+444444 10 Marc Gasol
+555555 6,5 Sergi Ibaka
+666666 7,5 Willy Hernangomez
+777777 9,0 Juan Carlos Navarro

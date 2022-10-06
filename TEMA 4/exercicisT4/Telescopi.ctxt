@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Telescopi
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Telescopi\ here.\r\n\r\n\ @author\ Violeta\ Vicente\ Cantero\r\n\ @version\ 2019-2020\r\n
+comment1.params=d\ dF\ dFOcular
+comment1.target=Telescopi(double,\ double,\ double)
+comment1.text=Construeix\ un\ telescopi\ de\ mesures\ parametritzades.\r\n
+comment2.params=
+comment2.target=Telescopi()
+comment2.text=Construeix\ un\ telescopi\ de\ mesures\ est\u00E0ndard.\r\n
+comment3.params=
+comment3.target=double\ augments()
+comment3.text=Torna\ els\ augments\ del\ telescopi\ actual\r\n@return\ double,\ dist\u00E0ncia\ focal/fist\u00E0ncia\ ocular.
+numComments=4

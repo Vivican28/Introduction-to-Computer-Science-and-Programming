@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=GrupB
+comment0.text=\r\n\ Class\ GrupB\:\ representa\ als\ alumnes\ del\ grup\ B.\r\n\ \r\n\ @author\ IIP\r\n\ @version\ Curs\ 2019-20\r\n
+comment1.params=tec
+comment1.target=GrupB(java.util.Scanner)
+comment1.text=\ Crea\ un\ GrupB\ amb\ els\ alumnes\ del\ grup\ B,\ \r\n\ \ les\ dades\ dels\ quals\ es\ lligen\ des\ de\ teclat.\r\n
+comment2.params=
+comment2.target=void\ mostrarAlumnes()
+comment2.text=\ Mostra\ per\ pantalla\ la\ informacio\ de\ tots\r\nels\ alumnes\ del\ grup.
+numComments=3

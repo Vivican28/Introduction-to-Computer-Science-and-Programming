@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Astre
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Astre\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=n\ t\ b\ d
+comment1.target=Astre(java.lang.String,\ int,\ double,\ double)
+comment2.params=
+comment2.target=Astre()
+comment3.params=
+comment3.target=double\ getBrillantor()
+comment4.params=novabrillantor
+comment4.target=void\ setBrillantor(double)
+comment5.params=o
+comment5.target=boolean\ equals(java.lang.Object)
+comment6.params=
+comment6.target=java.lang.String\ toString()
+comment7.params=
+comment7.target=double\ magnitudAbsoluta()
+comment8.params=o
+comment8.target=int\ mesBrillant(Astre)
+comment9.params=
+comment9.target=java.lang.String\ visibleAmb()
+numComments=10
